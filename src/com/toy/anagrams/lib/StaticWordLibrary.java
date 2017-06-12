@@ -36,7 +36,7 @@ package com.toy.anagrams.lib;
  */
 final class StaticWordLibrary extends WordLibrary {
 
-    private static final String[] WORD_LIST = {
+    private static final String[] WORD_LIST = {/*
         "abstraction",
         "ambiguous",
         "arithmetic",
@@ -81,7 +81,52 @@ final class StaticWordLibrary extends WordLibrary {
         "hotjava",
         "vertex",
         "unsigned",
-        "traditional"};
+        "traditional"*/
+    "abstracto",
+    "ambiguo",
+    "aritmetica",
+    "barrainvertida",
+    "mapa de bits",
+    "circustancia",
+    "combinacion",
+    "consecuencia",
+    "consorcio",
+    "decremento",
+    "dependencia",
+    "Disambiguate",//noooo
+    "dinamico",
+    "encapsulado",
+    "equivalente",
+    "expresion",
+    "facilitar",
+    "fragmento",
+    "hexadecimal",
+    "implementacion",
+    "indistinguible",
+    "herencia",
+    "internet",
+    "java",
+    "localizacion",
+    "microprocesador",
+    "navegador",
+    "optimizacion",
+    "parametro",
+    "Patricio",
+    "adobo",
+    "polimorfico",
+    "rigurosamente",
+    "simultaneamente",
+    "especificacion",
+    "estructura",
+    "lexico",
+    "igualmente",
+    "administracion",
+    "manipulacion",
+    "matematicas",
+    "hotjava", //noooo
+    "vertice",
+    "no firmado",
+    "tradicional"};
 
     private static final String[] SCRAMBLED_WORD_LIST = {
         "batsartcoin",
