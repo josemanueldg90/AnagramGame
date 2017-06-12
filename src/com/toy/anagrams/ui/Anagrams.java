@@ -261,10 +261,10 @@ public class Anagrams extends JFrame {
 
     private void guessedWordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_guessedWordActionPerformed
         if (wordLibrary.isCorrect(wordIdx, guessedWord.getText())){
-            feedbackLabel.setText("Correct! Try a new word!");
+            feedbackLabel.setText("Correcto! Prueba con una nueva palabra!");
             getRootPane().setDefaultButton(nextTrial);
         } else {
-            feedbackLabel.setText("Incorrect! Try again!");
+            feedbackLabel.setText("Incorrecto! Prueba de nuevo!");
             guessedWord.setText("");
         }
 
